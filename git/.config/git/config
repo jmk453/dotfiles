@@ -1,0 +1,16 @@
+[user]
+    name = Justin Matthew Kidd
+    email = me@justinkidd.ca
+    signingkey = 25F4902C639FD9AE
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true
+
+[core]
+    excludesfile = ~/.config/git/ignore
+
+[init]
+    defaultbranch = main

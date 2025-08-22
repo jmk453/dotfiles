@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+stow -t ~ fish
+stow -t ~ git
+stow -t ~ nvim
+stow -t ~ ssh
+sudo stow -t / sshd
