@@ -1,6 +1,6 @@
 # Justin's Dotfiles
 
-[Justin Kidd](https://justinkidd.ca)'s personal dotfiles.
+[My](https://justinkidd.ca) personal dotfiles.
 
 # Requirements
 
