@@ -1,0 +1,10 @@
+{
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "monroe": "linux",
+        "manus": "linux"
+    },
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+}
