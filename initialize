@@ -6,4 +6,3 @@ stow -t ~ ssh
 stow -t ~ vscode
 sudo stow -t / sshd
 sudo stow -t / tor
-sudo systemctl daemon-reload
