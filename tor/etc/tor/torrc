@@ -1,0 +1,4 @@
+User tor
+Log notice syslog
+DataDirectory /var/lib/tor
+Sandbox 1
