@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 stow -t ~ fish
 stow -t ~ git
-stow -t ~ hushlogin
 stow -t ~ nvim
 stow -t ~ ssh
 stow -t ~ vscode
