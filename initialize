@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-stow -t ~ fish
-stow -t ~ git
-stow -t ~ nvim
-stow -t ~ ssh
-stow -t ~ vscode
-sudo stow -t / sshd
-sudo stow -t / tor

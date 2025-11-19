@@ -1,6 +1,6 @@
 # Justin's Dotfiles
 
-[My](https://justinkidd.ca) personal dotfiles.
+[Justin Matthew Kidd](https://justinkidd.ca)'s personal dotfiles.
 
 # Requirements
 
@@ -9,7 +9,7 @@
 # Instructions
 
 ```console
-./initialize
+bin/initialize
 ```
 
 # License

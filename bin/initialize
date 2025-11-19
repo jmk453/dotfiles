@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+(
+    cd packages/generic
+    stow -t ~ git nvim ssh
+)
+if [[ $(uname) == Linux ]]; then
+    cd packages/linux
+    stow -t ~ fish vscode
+    sudo stow -t / tor sshd
+elif [[ $(uname) == Darwin ]]; then
+    cd packages/mac
+    stow -t ~ fish vscode
+    sudo ln -s ../linux/sshd/etc/ssh/sshd_config.d/01-general.conf /etc/ssh/sshd_config.d/
+fi
